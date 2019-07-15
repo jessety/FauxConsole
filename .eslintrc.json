@@ -1,0 +1,18 @@
+{
+  "extends": "@jessety",
+  "env": {
+    "node": false,
+    "browser": true,
+    "es6": false
+  },
+  "parserOptions": {
+    "ecmaVersion": 5
+  },
+  "rules": {
+    "no-var": "off",
+    "one-var": ["warn", "always"],
+    "prefer-template": "off",
+    "strict": ["error", "function"],
+    "no-console": "off"
+  }
+}

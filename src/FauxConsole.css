@@ -1,0 +1,45 @@
+.FauxConsole {
+
+  position: fixed;
+
+  border-top: 1px solid #555;
+  background-color: #fff;
+
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 10rem;
+
+  overflow: auto;
+
+  font-size: 90%;
+  font-family: monospace;
+
+  z-index: 1000;
+}
+
+.FauxConsole .FauxConsoleLog {
+
+  margin: .25rem;
+  margin-bottom: 1rem;
+
+  overflow-x: hidden;
+}
+
+.FauxConsole .FauxConsoleLog .log {
+
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+
+  color: #000;
+
+  width: 100%;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.FauxConsole .FauxConsoleLog .log .timestamp {
+
+  color: #777777;
+  font-size: 85%;
+}

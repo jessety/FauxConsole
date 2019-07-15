@@ -1,0 +1,52 @@
+/*
+ *  example/style.css
+ *  FauxConsole
+ *
+ *  Created by Jesse T Youngblood on 7/15/19 at 16:12
+ *  Copyright (c) 2019 Jesse Youngblood. All rights reserved.
+ */
+
+body {
+
+  margin: 0rem;
+
+  background-color: rgb(41, 45, 53);
+  color: #fff;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  background-color: rgba(43, 127, 156, 1);
+  background-color: #2B7F9C;
+  color: #fff;
+}
+
+header .inner {
+  padding: 1.5rem;
+  font-weight: 600;
+  font-size: 1.50rem;
+  line-height: 24px;
+  /* text-transform: uppercase; */
+}
+
+header .menu {
+  background-color: #4A92AA;
+  font-size: 1.05rem;
+  padding: 0.5rem;
+  min-height: 1rem;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+main {
+  padding: 1rem;
+}
