@@ -251,7 +251,7 @@ FauxConsole.prototype = {
     this._container = container;
     this._list = list;
 
-    document.getElementById('body').appendChild(container);
+    document.body.appendChild(container);
   },
 
   // Load settings from cookies
