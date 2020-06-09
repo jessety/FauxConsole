@@ -12,8 +12,8 @@
 
   overflow: auto;
 
-  font-size: 90%;
-  font-family: monospace;
+  font-size: 70%;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, ui-monospace, monospace;
 
   z-index: 1000;
 }
